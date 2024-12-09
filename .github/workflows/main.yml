@@ -28,6 +28,6 @@ jobs:
           args: --acl public-read --follow-symlinks --delete
         env:
           AWS_S3_BUCKET: “cesarmendozamit“
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_ACCESS_KEY_ID: “AKIAZGTX7PDJDVULD3MH”
+          AWS_SECRET_ACCESS_KEY: “wpyVBiJWspESxg7OvRZgYZ9eQk9rmLMRDw0en6zN“
           AWS_REGION: "us-east-1" # optional: defaults to us-east-1
